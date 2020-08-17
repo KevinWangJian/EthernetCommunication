@@ -34,7 +34,7 @@ static int ethernet_timeCount2 = 0;
 
 typedef  unsigned char  ETH_STATUS;
 
-volatile unsigned char string[]= "DuPower";
+volatile unsigned char string[]= "ShangHai";
 
 zvt_pt_ipmode IpModeFlag     = User_IpMode;
 zvt_pt_ipmode PrevIpModeFlag = User_IpMode;
