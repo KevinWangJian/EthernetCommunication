@@ -29,6 +29,7 @@
 #include "rba_EthTcp_Prv.h"
 #include "rba_EthTcp_Prv_Domain.h"
 
+static int ethernet_timeCount = 0;
 
 zvt_pt_ipmode IpModeFlag     = User_IpMode;
 zvt_pt_ipmode PrevIpModeFlag = User_IpMode;
